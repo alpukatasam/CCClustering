@@ -8,7 +8,7 @@ from sklearn.cluster import KMeans
 
 model = pickle.load(open('CC GENERAL.sav', 'rb'))
 
-df=pd.read_excel("CC GENERAL.xlsx")
+df=pd.read_excel("CCClust.xlsx")
 features = ['BALANCE', 'PURCHASES']
 X = df[features]
 
